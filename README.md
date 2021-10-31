@@ -1,16 +1,4 @@
-# ecommerce_app
+# Ecommerce App
 
-A new Flutter project.
+This is a Flutter Project. Here, sellers can upload a product according to a particular category & brand. Customers can navigate the products using category & brand name just like amazon, flipkart apps. Also, customers can add his/her choiceable products in cart as well as wishlist. After adding to cart, it’s also possible to order the products (added in cart) using an online stripe payment method (using Debit / Credit Card). This app has the facility to change light to dark theme or vice-versa. Also, users can choose their own language as required (English by default, Hindi, Spanish, Persian, Arabic & Urdu).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
