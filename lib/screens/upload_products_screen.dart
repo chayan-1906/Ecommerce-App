@@ -84,29 +84,6 @@ class _UploadProductsScreenState extends State<UploadProductsScreen> {
         .toList();
   }
 
-  // showAlertDialog(BuildContext context, String title, String body) {
-  //   // show the dialog
-  //   showDialog(
-  //     context: context,
-  //     builder: (BuildContext context) {
-  //       return AlertDialog(
-  //         title: Text(title),
-  //         content: Text(body),
-  //         actions: [
-  //           FlatButton(
-  //             child: Text(
-  //               getTranslated(context, 'okay'),
-  //             ),
-  //             onPressed: () {
-  //               Navigator.of(context).pop();
-  //             },
-  //           ),
-  //         ],
-  //       );
-  //     },
-  //   );
-  // }
-
   void _tryUploadProduct() async {
     final isValid = _formKey.currentState!.validate();
     FocusScope.of(context).unfocus();
@@ -388,8 +365,8 @@ class _UploadProductsScreenState extends State<UploadProductsScreen> {
                                           ),
                                         ],
                                         decoration: InputDecoration(
-                                          hintText: '${getTranslated(
-                                              context, 'price')} \$',
+                                          hintText:
+                                              '${getTranslated(context, 'price')} \$',
                                           hintStyle: GoogleFonts.getFont(
                                             'Roboto Slab',
                                             fontWeight: FontWeight.w400,

@@ -160,7 +160,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             [Colors.red, const Color(0xEEF44336)],
                             [Colors.red.shade800, const Color(0x77E57373)],
                             [Colors.orange, const Color(0x66FF9800)],
-                            [Colors.yellow, const Color(0x55FFEB3B)]
+                            [Colors.yellow, const Color(0x55FFEB3B)],
                           ],
                           // durations: [35000, 19440, 10800, 6000],
                           durations: [3000, 2440, 3800, 2000],
